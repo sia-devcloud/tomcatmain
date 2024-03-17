@@ -1,8 +1,7 @@
 
-- name: install apache-tomcat
+---
+- name: install apache
   hosts: all
   become: yes
-  httpd_port: 8080
-  httpd_ssl_port: 8443
   roles:
     - role: buluma.httpd
