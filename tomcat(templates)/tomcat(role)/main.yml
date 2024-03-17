@@ -1,0 +1,4 @@
+---
+- name: install apache-tomcat
+  roles:
+    - role: buluma.httpd
